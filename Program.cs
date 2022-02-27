@@ -11,7 +11,7 @@ namespace NumeralExtenso
             Console.WriteLine("-------------------");
             Console.WriteLine("--Numero Extensao--");
             Console.WriteLine("-------------------");
-            Numero  = Convert.ToInt32(Console.ReadLine());
+            number  = Convert.ToInt32(Console.ReadLine());
             string numberText = number.ToWords();
             Console.Write(numberText);
 
